@@ -1,0 +1,7 @@
+{
+  "name": "kio-board",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
