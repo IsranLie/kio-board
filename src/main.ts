@@ -4,6 +4,8 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 
+import { hydrateBoard, hydrateUiState } from '@/stores/storage';
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
 
@@ -36,6 +38,6 @@ import './theme/variables.css';
 
 const app = createApp(App).use(IonicVue).use(router);
 
-router.isReady().then(() => {
+Promise.all([router.isReady(), hydrateBoard(), hydrateUiState()]).then(() => {
   app.mount('#app');
 });

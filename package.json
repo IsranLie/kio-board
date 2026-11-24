@@ -1,7 +1,7 @@
 {
   "name": "kio-board",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,7 @@
     "@capacitor/haptics": "8.0.2",
     "@capacitor/keyboard": "8.0.6",
     "@capacitor/status-bar": "8.0.4",
+    "@ionic/storage": "^4.0.0",
     "@ionic/vue": "^9.0.0",
     "@ionic/vue-router": "^9.0.0",
     "ionicons": "^8.1.0",
