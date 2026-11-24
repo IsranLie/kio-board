@@ -70,3 +70,7 @@ npm test
 - `src/components/ui/` — komponen UI/modal/dialog
 - `src/stores/storage.ts` — state board, persistensi, dan mutasi data
 - `src/types/` — tipe data Kanban
+
+## Preview
+https://kio-board.vercel.app/
+<img width="1365" height="651" alt="image" src="https://github.com/user-attachments/assets/3a101fa1-f26d-4426-9651-a49d0a184a04" />
